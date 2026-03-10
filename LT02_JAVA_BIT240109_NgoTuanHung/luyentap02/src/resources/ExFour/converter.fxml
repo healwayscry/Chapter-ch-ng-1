@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="10" alignment="CENTER"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ExFour.Controller">
+
+    <TextField fx:id="inputC" promptText="Nhap nhiet do C"/>
+
+    <Button text="Convert" onAction="#convertTemp"/>
+
+    <Label fx:id="result" text="Ket qua"/>
+
+</VBox>
